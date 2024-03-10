@@ -1,77 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <head>
-        <title>MY PORTFOLIO</title>
-        <link rel="stylesheet" href="p.css">
-    </head>
-    <body id="grad">
-        <header>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
             <nav>
                 <ul>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Education">Education</a></li>
-                    <li><a href="#Skills">Skills<a></li>
-                    <li><a href="#Contact">Contact<a></li> 
-                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </header>
-        <h1>Hello Everyone!!
-          <pre>
-          I'm Sri Vaishnavi
-          Welcome to my PORTFOLIO..
-          </pre>
-      </h1>
-        <section id="About">
-            <div class="container">
-                <h2>About Me</h2>
-                <p>Hello! My name is Sri Vaishnavi, and I am delighted to welcome you to my portfolio. Here, I will provide you with a glimpse into my Education,skills, experiences, and accomplishments. I am a passionate in Artificial Intelligence and Machine Learning,Web development etc, driven by a desire to create meaningful and impactful work.</p>
+        </div>
+    </header>
+    <section id="about" class="bg-light">
+        <div class="container">
+            <div class="about-content">
+                <div class="profile-picture">
+                </div>
+                <div class="bio">
+                    <h2>About Me</h2>
+                    <h3>Hi, I'm Sri Vaishnavi</h3>
+                    <p>I am a motivated and enthusiastic student currently pursuing a degree in Computer Science at CMR Engineering College. With a strong passion for frontend development and design, I am eager to apply my skills and knowledge to create engaging user experiences.</p>
+                    <p>Throughout my academic journey, I have excelled in courses related to web development, mastering languages such as HTML, CSS, and JavaScript. I have also actively participated in extracurricular activities, including coding competitions and web development workshops, to further enhance my skills and expand my knowledge.</p>
+                    <p>As a student, I am committed to continuous learning and growth, always seeking new challenges and opportunities to broaden my horizons. I am excited about the prospect of contributing to innovative projects and making a meaningful impact in the field of frontend development.</p>
+                </div>
             </div>
-        </section>
-        <section id="Education">
-            <div class="container">
-               <h2>Education</h2>
-               <p>BTECH : CMR ENGINEERING COLLEGE - 2025
-               <hr/>
-                INTERMEDIATE : SRI GAYATRI JUNIOR COLLEGE - 2021
-              <hr/>
-              SCHOOL : ST.MARY'S  VIDYANIKETHAN HIGH SCHOOL - 2019
-                 </p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>Ms Office</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <h4>CMREC Study Central</h4>
+                <p>A website for students of our college.</p>
             </div>
-           </section>
-        <section id="Skills">
-            <div class="container">
-              <h2>Skills</h2>
-              <div class="skills">
-                <pre>
-        TECHNICAL PROFICIENCIES:
-      =>Programming Languages- C, Java, C++.
-      =>Web Development- HTML, CSS.
-
-        SOFT SKILLS:
-      =>Problem-solving,Critical Thinking,Collaboration and Teamwork,Adaptability,Time Management,Creativity
-      Leadership,Continuous Learning...
-                  
-      I constantly strive to enhance my skills and stay updated 
-      with the latest industry trends to ensure that my work is innovative, effective, and of the highest quality.
-                </pre>
-              </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <h4>Portfolio Website</h4>
+                <p>My personal portfolio website showcasing my skills and projects.</p>
             </div>
-          </section>
-          <section id="Contact">
-            <div class="container">
-              <h2>Contact Me</h2>
-              <form action="#">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-              </form>
-            </div>
-          </section>
-    </body>
+        </div>
+    </section>
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: dharanikotasrivaishnavi@gmail.com</p>
+            <p>Phone: 8008654262</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sri-vaishnavi-dharanikota-556a4b262/">My Profile</a></p>
+            <p>GitHub: <a href="https://github.com/dsrivaishnavi">My Profile</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; My Portfolio</p>
+        </div>
+    </footer>
+</body>
 </html>
